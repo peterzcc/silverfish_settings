@@ -1,0 +1,112 @@
+// This File: _mulligan.txt
+// Author: scottbreak
+// Version: 0.6 (12-Dec-16)
+// Deck Name: Pirate Warrior
+// Hero: Warrior
+// Deck Type: Aggro
+
+// - D E C K ------------------------------------
+// [1] N'Zoth's First Mate x2 (OG_312)
+// [1] Patches the Pirate x1 (CFM_637)
+// [1] Sir Finley Mrrgglton x1 (LOE_076)
+// [1] Small-Time Buccaneer x2 (CFM_325)
+// [1] Southsea Deckhand x2 (CS2_146)
+// [1] Upgrade! x2 (EX1_409)
+// [2] Acid Swamp Ooze x1 (EX1_066)
+// [2] Bloodsail Raider x2 (NEW1_018)
+// [2] Firey War Axe x2 (CS2_106)
+// [2] Heroic Strike x2 (CS2_105)
+// [3] Argen Horserider x2 (AT_087)
+// [3] Bloodsail Cultist x2 (OG_315)
+// [3] Frothing Berserker x2 (EX1_604)
+// [4] Kor'kron Elite x2 (NEW1_011)
+// [4] Mortal Strike x2 (EX1_408)
+// [5] Arcanite Reaper x2 (CS2_112)
+// [5] Leeroy Jenkins x1 (EX1_116)
+
+
+//- D E C K (WILD) -------------------------------------
+// [1] N'Zoth's First Mate x2 (OG_312)
+// [1] Patches the Pirate x1 (CFM_637)
+// [1] Sir Finley Mrrgglton x1 (LOE_076)
+// [1] Small-Time Buccaneer x2 (CFM_325)
+// [1] Southsea Deckhand x2 (CS2_146)
+// [1] Upgrade! x2 (EX1_409)
+// [2] Bloodsail Raider x2 (NEW1_018)
+// [2] Firey War Axe x2 (CS2_106)
+// [2] Heroic Strike x2 (CS2_105)
+// [2] Ship's Cannon x2 (GVG_075)
+// [3] Bloodsail Cultist x2 (OG_315)
+// [4] Death's Bite x2 (FP1_021)
+// [4] Dread Corsair x2 (NEW1_002)
+// [4] Kor'kron Elite x2 (NEW1_011)
+// [4] Mortal Strike x2 (EX1_408)
+// [5] Arcanite Reaper x1 (CS2_112)
+// [5] Leeroy Jenkins x1 (EX1_116)
+
+// - M U L L I G A N --------------------------------------
+// DISCARD Patches the Pirate (CFM_637)
+discard;thief;all;CFM_637
+
+// Hold Beneath the Grounds AT_035 for Warlock/mage
+hold;rogue;warlock;AT_035:1
+hold;rogue;mage;AT_035:1
+
+// Small-Time Buccaneer (CFM_325)
+hold;thief;all;CFM_325:1
+
+// 1 x Backstab
+hold;thief;all;CS2_072:1
+
+
+// 1 x Deadly Poison (CS2_074)
+hold;thief;all;CS2_074:1
+// 1 x Buccaneer (AT_029)
+hold;thief;all;AT_029:1
+// 1 x Undercity Valiant (AT_030) + coin
+hold;thief;all;AT_030:1;coin
+// 1 x Defias Ringleader (EX1_131) + coin
+hold;thief;all;EX1_131:1;coin
+// SI:7 Agent (EX1_134) + coin
+hold;thief;all;EX1_134:1;coin
+
+//cold blood always hold
+hold;rogue;all;CS2_073:1;
+hold;rogue;all;CS2_073:2;
+hold;rogue;all;CS2_073:1;coin
+hold;rogue;all;CS2_073:2;coin
+
+
+// Hold Beneath the Grounds AT_035 for Warlock/mage
+discard;rogue;mage;CS2_072
+
+discard;rogue;warlock;CS2_073
+discard;rogue;mage;CS2_073
+
+discard;rogue;warlock;AT_029
+discard;rogue;mage;AT_029
+
+discard;rogue;warlock;AT_030
+discard;rogue;mage;AT_030
+
+discard;rogue;warlock;CS2_074
+discard;rogue;mage;CS2_074
+
+discard;rogue;warlock;EX1_134
+discard;rogue;mage;EX1_134
+
+
+
+// - S H A M A N --------------------------------
+// Acid Swamp Ooze (EX1_066)
+hold;thief;shaman;EX1_066:1
+
+
+// - W A R R I O R ------------------------------
+// Acid Swamp Ooze (EX1_066)
+hold;thief;warrior;EX1_066:1
+
+//W A R L O C K ---------------------------------
+hold;thief;warlock;LOE_076:1
+//P R I E S T ---------------------------------
+hold;thief;priest;LOE_076:1

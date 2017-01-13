@@ -1,0 +1,35 @@
+// Cardvalue Leeroy Jenkins (EX1_116)
+cardvalue:EX1_116,10
+
+//Cold Blood
+cardvalue:CS2_073,15
+
+//Sir Finley (vs control)
+cardvalue:LOE_076,8
+
+//Early Edwin
+CFM_630,500;CFM_630,500;GAME_005e,500;EX1_613,250;mana:1;hero:rogue
+CFM_630,500;GAME_005e,500;EX1_613,250;mana:1;hero:rogue
+CFM_630,500;CFM_630,500;EX1_613,250;mana:1;hero:rogue
+CFM_630,500;EX1_145,500;EX1_129,500;EX1_613,250;mana:2;hero:rogue
+GAME_005e,500;EX1_145,500;EX1_129,500;EX1_613,250;mana:2;hero:rogue
+EX1_145,500;AT_035,50;EX1_613,250;mana:3;hero:rogue
+EX1_145,500;OG_176,50;EX1_613,250;mana:3;hero:rogue
+EX1_145,500;EX1_581,50;EX1_613,250;mana:3;hero:rogue
+EX1_145,500;EX1_124,50;EX1_613,250;mana:3;hero:rogue
+GAME_005e,500;EX1_145,50;AT_035,500;EX1_613,250;mana:2;hero:rogue
+GAME_005e,500;EX1_145,50;OG_176,500;EX1_613,250;mana:2;hero:rogue
+GAME_005e,500;EX1_145,50;EX1_581,500;EX1_613,250;mana:2;hero:rogue
+GAME_005e,500;EX1_145,50;EX1_124,500;EX1_613,250;mana:2;hero:rogue
+CFM_630,500;EX1_145,50;AT_035,250;EX1_613,250;mana:2;hero:rogue
+CFM_630,500;EX1_145,50;OG_176,250;EX1_613,250;mana:2;hero:rogue
+CFM_630,500;EX1_145,50;EX1_581,250;EX1_613,250;mana:2;hero:rogue
+CFM_630,500;EX1_145,50;EX1_124,250;EX1_613,250;mana:2;hero:rogue
+
+
+//Opening small-buccaneer
+CFM_325,0;nxttrn;CS2_083b,0;mana:1;bonusfirst:15;bonussecond:10;hero:rogue
+
+// play beneath the ground in turn 5
+AT_035,0;mana:4;bonus:10;hero:rogue
+AT_035,0;mana:5;bonus:10;hero:rogue
